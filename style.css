@@ -1,0 +1,65 @@
+body{
+  font-family: 'Uchen', serif;
+  margin: 0;
+}
+h1{
+  font-size: 50px;
+}
+.orange-color{
+  color: darkorange;
+}
+.flexible{
+  display: flex;
+  margin-bottom: 150px;
+}
+.half-top-section{
+width: 50%;
+padding-left: 3%;
+padding-top: 3%;
+}
+.half-top-section img{
+  width: 70%;
+}
+
+.link-button{
+  text-decoration: none;
+  background-color: darkorchid;
+  background-image: linear-gradient( blue, red);
+  color: white;
+  padding: 5px 20px;
+  font-weight: 600;
+  border-radius: 20px;
+}
+.middle-section{
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+}
+.half-middle-section{
+  width: 50%;
+padding-left: 3%;
+padding-top: 3%;
+padding-right: 5%;
+}
+.half-middle-section img{
+  width: 62%;
+  margin-left: 150px;
+}
+.recipie{
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.recipie-item{
+  width: 30%;
+box-shadow: 10px 10px 30px gray;
+border-radius: 20px;
+margin-left: 30px;
+padding: 20px;
+}
+.recipie-item img{
+  width: 85%;
+  border-radius: 30px;
+}
+.end-section{
+  padding: 20px;
+}
